@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-div {
+  /* background-repeat: no-repeat; */
+  /* background-size:contain; */
+  /* background-position: center; */
+  height: 200px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(52, 25, 56) rgba(143, 45, 143, 0.582) 
+  );
+}
