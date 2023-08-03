@@ -17,7 +17,7 @@ const Navbar = () => {
     >
       <div>
         <img
-          src="src/assets/image-from-rawpixel-id-2762169-png.png"
+          src="/image-from-rawpixel-id-2762169-png.png"
           alt="logo"
           srcset=""
           className="tw-h-7 tw-px-1 red tw-contrast-200"
@@ -33,6 +33,11 @@ const Navbar = () => {
           <li className="tw-opacity-80 hover:tw-opacity-100 tw-duration-100">
             <Link to="About" smooth={true} duration={1000}>
               About
+            </Link>
+          </li>
+                    <li className="tw-opacity-80 hover:tw-opacity-100 tw-duration-100">
+            <Link to="Projects" smooth={true} duration={1000}>
+              Projects
             </Link>
           </li>
           <li className="tw-opacity-80 hover:tw-opacity-100 tw-duration-100">

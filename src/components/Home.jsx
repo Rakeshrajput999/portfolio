@@ -1,5 +1,6 @@
 import React from "react";
 import {HiOutlineArrowCircleRight } from  "react-icons/hi"
+import { Link } from "react-scroll";
 
 const Home = () => {
   return <div name="Home" className="tw-h-screen tw-w-full tw-bg-slate-900 tw-px-4">
@@ -11,9 +12,10 @@ const Home = () => {
     currently i am focused on building responsive web/ mobile / PWA application. 
     </p>
     <div className="">
-      <button className="tw-text-white tw-border-2 tw-px-6 tw-py-3 tw-my-2 tw-flex tw-items-center tw-gap-1 hover:tw-bg-orange-900 hover:tw-border-orange-800 ">View Work <HiOutlineArrowCircleRight className=" tw-text-xl" /></button>
+      <Link to="Work" smooth={true} duration={1000} className="tw-text-white  tw-px-6 tw-py-3 tw-my-2 tw-flex tw-items-center tw-gap-1 hover:tw-bg-orange-900 hover:tw-border-orange-800 tw-w-1/4 ">View Projects <HiOutlineArrowCircleRight className=" tw-text-xl" /></Link>
 
     </div>
+
    </div>
   </div>;
 };
